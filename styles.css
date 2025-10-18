@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+div #resultado {
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+div .botonesOperaciones {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(255, 187, 0);
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+div .inputs {
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+div #log {
+    background-color: rgb(150, 50, 11);
+    color: white;
+    font-size: 20px;
+}
